@@ -1,0 +1,145 @@
+
+.tablecontainer1 {
+    position: fixed;
+    right: 35px;
+    top: 70px;
+    width: calc(73% - 220px);
+    height: 700px; /* Set a fixed height */
+    overflow-y: auto; /* Add a vertical scrollbar when content exceeds the height */
+    
+}
+
+.add-container {
+    position: fixed;
+    left: 250px;
+    top: 95px;
+    height: auto;
+    width: 400px;
+    background-color: #F4F6F6;
+    padding: 20px;
+    border: 1px solid rgba(158, 157, 157, 0.5); /* Adjust the alpha value (0.5 in this example) for opacity */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+}
+
+
+.input-container input[type="text"] {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+    border-radius: 5px;
+}
+
+
+.input-container input[type="number"] {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+    border-radius: 5px;
+}
+
+.input-container input[type="date"] {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+    border-radius: 5px;
+}
+
+.input-container input[type="time"] {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+    border-radius: 5px;
+
+}
+
+.input-container select {
+    width: 300px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */
+    color: black;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.input-container input[type="submit"] {
+    width: 150px; /* Set the desired width */
+    margin-right: 10px; /* Adjust spacing between input elements */
+    margin-left: 70px; /* Adjust spacing between input elements */
+    padding: 8px; /* Add padding to input elements */  
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 400px;
+    overflow-y: auto;
+
+}
+
+.body{
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 15, 99);
+    height: 65px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Adjust link color */
+    /* Additional styling if needed */
+}
+
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Using viewport height for full height */
+}
+
+.fcontainer {
+    width: 1500px; /* Adjusted width */
+    max-width: 1500px; /* Adjust max-width to your preference */
+    height: 500px;
+    padding: 250px 250px; /* Adjust top padding to move container down */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text content */
+}
+
+
+.logo {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
