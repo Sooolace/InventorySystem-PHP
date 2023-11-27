@@ -69,10 +69,10 @@
 }
 
 .input-container input[type="submit"] {
-    width: 150px; /* Set the desired width */
-    margin-right: 10px; /* Adjust spacing between input elements */
-    margin-left: 70px; /* Adjust spacing between input elements */
-    padding: 8px; /* Add padding to input elements */  
+    width: 150px; 
+    margin-right: 10px; 
+    margin-left: 70px; 
+    padding: 8px;
 }
 
 .body{

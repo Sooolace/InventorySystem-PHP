@@ -11,10 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $product_id = $_POST['product_id'];
     $sold_qty = $_POST['sold_qty'];
     $store_id = $_POST['store_id'];
+    $salesdate = $_POST['salesdate'];
 
     // Insert the sale into the sales table with calculated total price
-    $insert_sale_query = "INSERT INTO sales (product_id, sold_qty, price, store_id)
-                          SELECT '$product_id', '$sold_qty', (p.price * '$sold_qty'), '$store_id'
+    $insert_sale_query = "INSERT INTO sales (product_id, sold_qty, price, store_id, salesdate)
+                          SELECT '$product_id', '$sold_qty', (p.price * '$sold_qty'), '$store_id', '$salesdate'
                           FROM product p
                           WHERE p.product_id = '$product_id'";
 
